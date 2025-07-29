@@ -1,0 +1,198 @@
+////////////////////////////////////////////////////////////////////////////////////General Managerial Round Interview Question
+
+
+Great question, Abhishek! 🙌 For a Tech Managerial round with 4 years of experience as a Full Stack .NET Developer (Angular + .NET Core + SQL Server), you can expect a mix of technical depth, architecture thinking, real-world problem-solving, and project ownership type questions.
+
+
+---
+
+🔹 1. Project Ownership & Role
+
+> Q1. Tell me about your recent full stack project — your role, architecture, and technologies used.
+Q2. What challenges did you face in that project and how did you resolve them?
+Q3. How do you ensure clean code and maintainability in a full-stack project?
+
+
+
+
+---
+
+🔹 2. Backend (.NET Core/API) Questions
+
+> Q4. How do you structure a real-world .NET Core application (Layers, DI, Configs)?
+Q5. What are IRepository, Service, and Controller responsibilities?
+Q6. How do you implement async/await in your repository pattern?
+Q7. How do you handle exceptions globally in .NET Core?
+Q8. Explain Middleware, Filters, and Logging — where would you use each?
+
+
+
+
+---
+
+🔹 3. Frontend (Angular) Questions
+
+> Q9. How do you manage state and service communication in Angular?
+Q10. Explain lifecycle hooks — where have you used ngOnInit, ngOnDestroy, etc.?
+Q11. How do you secure an Angular app and handle route guards?
+Q12. How does Angular consume REST APIs? How do you handle errors?
+
+
+
+
+---
+
+🔹 4. Database + SQL Server
+
+> Q13. How do you write optimized SQL queries?
+Q14. Difference between INNER JOIN, LEFT JOIN, UNION, UNION ALL with real examples.
+Q15. How do you call a stored procedure in ADO.NET?
+Q16. Have you ever worked on query tuning/indexing?
+
+
+
+
+---
+
+🔹 5. System Design / Architecture
+
+> Q17. If 1 million users access your app, how will your backend handle it?
+Q18. How will you design a secure login system with Angular + .NET Core?
+Q19. How do you decide when to use stored procedures vs. business logic in code?
+
+
+
+
+---
+
+🔹 6. Best Practices / DevOps / Testing
+
+> Q20. How do you write unit tests for controllers and services?
+Q21. What is CI/CD? Have you worked with GitHub Actions or Azure DevOps?
+Q22. What is SOLID principle — give a simple example.
+
+
+
+
+---
+
+🔹 7. Behavioral / Situational Questions
+
+> Q23. How do you handle last-minute production bugs?
+Q24. Tell me about a time when your deployment failed.
+Q25. How do you mentor junior developers or help teammates?
+
+
+
+
+---
+
+✅ Bonus Tip:
+
+> They will not just check your tech skills, but also:
+
+
+
+Ownership of delivery
+
+Thought process & estimation
+
+
+Ability to explain clearly
+
+Balance between frontend, backend, and DB
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ "Can you explain the architecture of your project?"
+
+👇 Interview-Ready Answer (Clean, Easy, Confident):
+
+> "Sure! I built a Buy & Sell Property platform using a clean architecture that separates each responsibility — making the app more maintainable, testable, and scalable.
+
+
+
+
+---
+
+🏗️ Full Stack Architecture (Simplified Explanation)
+
+🔹 1. Frontend (Angular)
+
+> I used Angular to build a responsive UI where users can view property listings, check details, and filter/search properties.
+
+Used Angular Services to call Web APIs.
+
+Used @Input & @Output decorators for component communication.
+
+HTTP Client (GET, POST, etc.) + Error handling via Interceptors.
+
+
+
+
+🔹 2. Backend (.NET Core / .NET 8 Web API)
+
+> I created RESTful APIs in .NET Core.
+
+Used a layered structure:
+
+
+
+
+Controller – Handles incoming HTTP requests.
+
+Service Layer – Contains business logic.
+
+Repository Layer – Interacts with SQL DB using ADO.NET.
+
+Used Dependency Injection to keep things loosely coupled.
+
+
+// Flow: Controller → Service → Repository → DB
+
+🔹 3. Database Layer (SQL Server + ADO.NET)
+
+> Used ADO.NET with parameterized queries to connect and fetch data.
+
+Stored all property info in SQL tables.
+
+Avoided ORMs to keep it lightweight and fully hands-on.
+
+
+
+
+🔹 4. Extra Best Practices
+
+> Used IRepository and IService interfaces for abstraction and testability.
+
+Applied async/await for performance and scalability.
+
+Used appsettings.json for DB connection and configurations.
+
+
+
+
+
+---
+
+🧠 Real-Time Example (Flow)
+
+> "When a user opens the Property page in Angular, it sends an HTTP GET request to the backend API (e.g., /api/property).
+The controller calls the service, which then calls the repository, fetches data from SQL, and sends it back to the Angular frontend — which displays it to the user."
+
+
+
+
+---
+
+🔐 Optional Add-Ons (If asked further)
+
+Used Routing Guards in Angular for protecting routes (like Admin panel).
+
+Handled global errors in .NET with UseExceptionHandler.
+
+Prepared for future features like Payment Gateway or Notifications.
