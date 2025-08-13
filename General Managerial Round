@@ -196,3 +196,15 @@ Used Routing Guards in Angular for protecting routes (like Admin panel).
 Handled global errors in .NET with UseExceptionHandler.
 
 Prepared for future features like Payment Gateway or Notifications.
+
+////////////////////////////////////////////////////////////////////////////////What improvement would you make to Project ?
+
+->"While the application works well in its current state, there are several potential improvements I would consider for better scalability, security, and user experience:
+//////////////////////////1. Performance & Scalability
+ infinite scrolling in Angular for better performance with large datasets.
+
+/////////////////////////2. Security Enhancements
+Enable two-factor authentication (2FA) for user logins.
+////////////////////////3. User Experience Improvements
+Add advanced filters (price range, location, property type, etc.) with instant search.
+Introduce interactive maps for location-based property searches.
